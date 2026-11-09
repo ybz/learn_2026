@@ -1,0 +1,5 @@
+# Workspace root: every project under projects/ is a member.
+# rust-analyzer and `cargo` both discover projects through this file.
+[workspace]
+resolver = "3"
+members = ["projects/*"]
